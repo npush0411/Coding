@@ -1,0 +1,5 @@
+D:\Coding\Projects\LearnGUI\x64\Debug\LearnGUI.vcxproj.AssemblyReference.cache
+D:\Coding\Projects\LearnGUI\x64\Debug\LearnGUI.vcxproj.SuggestedBindingRedirects.cache
+D:\Coding\Projects\LearnGUI\x64\Debug\LearnGUI.exe
+D:\Coding\Projects\LearnGUI\x64\Debug\LearnGUI.MyForm1.resources
+D:\Coding\Projects\LearnGUI\x64\Debug\LearnGUI.vcxproj.GenerateResource.cache

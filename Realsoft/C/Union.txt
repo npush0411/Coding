@@ -1,0 +1,22 @@
+Union
+
+Memory allocation for all at a time 
+Random access possible
+
+struct
+{
+    int a;
+    float b;
+    char c;
+}
+
+
+Memory allocation for one at a time
+only last updated var can be read
+
+Union
+{
+    int a;
+    float;
+    char c;
+}

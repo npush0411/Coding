@@ -1,0 +1,19 @@
+3	5	2	4	6
+
+
+a[size - 5] + a[size - 4] + a[size - 3] + a[size - 2] a[size - 1] + a[size]
+
+if(cnt == (size-2))
+	return a[cnt] + a[cnt + 1]
+
+a[0] = 3
+3 + a[0+1] -->    a[1] = 5
+			5 + a[1 + 1] -->	a[2] = 2
+						2 + a[2 + 1] -->	a[3] = 4
+									4 + a[3 + 1] -->															4 + 6
+3 + 17	-----	5 + 12	-----	2 + 10	-----	10
+|
+|
+return to console 20.
+when cnt becomes 2 times less than the actual size of the array.
+Then return a[cnt] + a[cnt + 1]

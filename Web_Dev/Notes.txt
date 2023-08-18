@@ -1,0 +1,12 @@
+Element -
+	paragraph, image, text, link, video
+Attribute -
+	Special thing about particular element
+for example, image is an element and height of image are attributes
+
+Syntax for creating elements -
+	<{Tag-name}>content</{Tag-name}>
+Syantax for creating element with attribute - 
+	<{Tag-name} attribute1 = "Value" attribute2 = "Value">content</{Tag-name}>
+Sysntax for embading image - 
+	<img src = "{Location of image on PC (Path/url)}">

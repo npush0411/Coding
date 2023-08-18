@@ -1,0 +1,30 @@
+Front-End:
+
+HTML
+CSS
+JavaScript
+Front-End Frameworks (optional) - React, Angular, Vue.js
+
+
+Back-End:
+
+Node.js (JavaScript runtime)
+Python
+Ruby
+PHP
+
+
+Database:
+
+MySQL
+PostgreSQL
+MongoDB
+SQLite
+Additional Skills:
+
+API Development (optional) - REST, GraphQL
+Version Control (optional) - Git
+Deployment and Hosting (optional) - Heroku, AWS, Azure, Netlify
+
+
+Remember, these optional markers indicate that you have the flexibility to choose and personalize your learning based on your specific needs and preferences.

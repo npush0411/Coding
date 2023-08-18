@@ -1,0 +1,6 @@
+﻿  Screen1.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  Screen1.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+LINK : error LNK2001: unresolved external symbol main
+D:\Coding\Projects\Vacation_Planner\x64\Debug\Vacation_Planner.exe : fatal error LNK1120: 1 unresolved externals

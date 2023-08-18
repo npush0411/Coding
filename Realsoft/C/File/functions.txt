@@ -1,0 +1,12 @@
+/*
+    Functions
+        1. void rewind(FILE *) -> Library function shifts file-pointer to the begin of the file
+        2. int ftell(FILE *) -> Library function returns present file pointer position in file from begin of the file.
+        3. void fseek(FILE *, byte no, ref position) -> SEEK_SET - from begin of the file
+                                                        SEEK_END - from end of the file
+                                                        SEEK_CUR - from current position
+                                                        for example ->  fseek(ft, 0, SEEK_SET); -> the function call shifts pointer at byte no 0 from begin of the file.
+                                                                        fseek(ft, 0, SEEK_END); -> the function call shifts pointer at byte no 0 from END of the file.
+                                                                        fseek(ft, 19, SEEK_CUR); -> the function call shifts pointer at byte no 19 'in advance' from present position of the file.  
+
+*/

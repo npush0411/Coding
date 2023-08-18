@@ -1,0 +1,21 @@
+
+            body{
+                background-color: aqua;
+                background-image: url('peter-wendt--r5KSMkyoSc-unsplash.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                color: white;
+            }
+            h1{
+                color: white;
+                font-size: 75px;
+                text-align: center;
+            }
+            p{
+                font-size: xx-large;
+            }
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+              }

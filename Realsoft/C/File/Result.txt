@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+typedef struct student
+{
+	int roll_no;
+	int div_no;
+	float avg;
+	int marks;
+}student;
