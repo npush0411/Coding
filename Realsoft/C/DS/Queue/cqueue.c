@@ -6,9 +6,9 @@ typedef struct que
 {
     int arr[M];
     int fr, rr;
-}CQUE;
+}CQ;
 
-void init(CQUE *t)
+void init(CQ *t)
 {
     int i = 0;
     while(i < M)
@@ -19,7 +19,7 @@ void init(CQUE *t)
     t->rr = t->fr = M - 1;
 }
 
-int count(CQUE *t)
+int count(CQ *t)
 {
     int i = 0, cnt = 0;
     while(i < M)
@@ -31,7 +31,7 @@ int count(CQUE *t)
     return cnt;
 }
 
-void insert(CQUE *t, int d)
+void insert(CQ *t, int d)
 {
     if(count(t) == 0)
         printf("\nOverFlow");
@@ -45,7 +45,7 @@ void insert(CQUE *t, int d)
     }
 }
 
-void remque(CQUE *t, int d)
+void remque(CQ *t, int d)
 {
     if(count(t) == M)
         printf("\nUnderFlow");

@@ -1,0 +1,60 @@
+#include<stdio.h>
+
+int binary_search(int arr[], int search , int n)
+{
+    int mid, beg = 0, end = n - 1;
+    while(beg <= end)
+    {
+        mid = (beg + end)/2;
+        if(arr[mid] == search)
+            return 1; //Found
+        else
+			if(arr[mid] > search)
+				end = mid - 1;
+			else
+				beg = mid + 1;
+    }
+    return 0; //not found
+
+}
+int sequential_search(int arr[], int search, int n)
+{
+    int i;
+    for(i = 0; i < n; i++)
+        if(arr[i] == search)
+			break;
+    return (i<n);
+
+
+}
+
+int main()
+{   
+    int search ,arr[5], i = 0;
+    printf("Enter the array data \n");
+    while(i < 5)
+    {
+        scanf("%d",&arr[i]);
+		if(i != 0)
+			if(arr[i-1] > arr[i])
+            {
+                printf("\nInvalid Input\n");
+				continue;
+            }
+        i++;
+    }
+    printf("Enter the search value : \n");
+    scanf("%d",&search);
+    printf("\nBinary search \n");
+    if (binary_search(arr,search,5))
+        printf("\n Found");
+    else 
+		printf("\n Not Found");
+
+    printf("\n\nSequential search");
+    if(sequential_search(arr,search,5))
+        printf("\n Found");
+     else 
+		printf("\n Not Found");
+	return 0;
+}
