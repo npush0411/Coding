@@ -1,29 +1,14 @@
-//Bug solving file
-//Simply testing environment
-#include <iostream>
-
+#include<iostream>
+#include"bug.h"
 using namespace std;
-
-void display()
-{
-    cout<<"\n welcome:";
-}
-
-void display(int a)
-{
-    cout<<"\n welcome:"<<a;
-}
-
-void display(double d)
-{
-    cout<<"\n welcome:"<<d;
-}
 
 int main()
 {
-    display();
-    display(10);
-    display('A');
-    display(9.8f);
-    return 0;
+    Book *p;
+    p= new Book;
+    p->setData(6,"let us c",600);
+    p->display();
+    p->setData(6,"let us c");
+    p->display();
+    delete p;
 }
